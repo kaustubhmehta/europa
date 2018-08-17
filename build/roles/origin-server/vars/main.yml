@@ -1,10 +1,10 @@
 ---
 # the download URI for OpenSshift Origin excluding the filename
-ocp_uri: 'https://github.com/openshift/origin/releases/download/v3.6.0'
-
+#ocp_uri: 'https://github.com/openshift/origin/releases/download/v3.6.0'
+ocp_uri: 'https://github.com/openshift/origin/releases/download/v3.9.0'
 # the name of the tarball installation file to download without extension
-ocp_folder: 'openshift-origin-server-v3.6.0-c4dd4cf-linux-64bit'
-
+#ocp_folder: 'openshift-origin-server-v3.6.0-c4dd4cf-linux-64bit'
+ocp_folder: 'openshift-origin-client-tools-v3.9.0-191fece-linux-64bit'
 # the full name of the tarball file
 ocp_filename: "{{ ocp_folder }}.tar.gz"
 
